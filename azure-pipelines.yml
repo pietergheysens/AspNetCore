@@ -21,6 +21,11 @@ steps:
   inputs:
     restoreSolution: '$(solution)'
 
+- task: UseDotNet@2
+  inputs:
+    packageType: 'sdk'
+    version: 
+
 - task: VSBuild@1
   inputs:
     solution: '$(solution)'
