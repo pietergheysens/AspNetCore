@@ -24,7 +24,7 @@ steps:
 - task: UseDotNet@2
   inputs:
     packageType: 'sdk'
-    version: 
+    version: '3.0.100-preview5-011568'
 
 - task: VSBuild@1
   inputs:
